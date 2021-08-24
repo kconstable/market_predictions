@@ -1,3 +1,8 @@
+#ignore generated files from jupyter.
+#these are temporary files, and should not be committed to a git repo.
+.local
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
