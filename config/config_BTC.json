@@ -1,0 +1,1 @@
+{"Economic": {"TREASURY_YIELD": [{"interval": "daily", "maturity": "5year", "name": "yield5y"}, {"interval": "daily", "maturity": "10year", "name": "yield10y"}]}, "Commodities": ["SPY"]}

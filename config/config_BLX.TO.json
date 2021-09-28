@@ -1,0 +1,1 @@
+{"Economic": {"TREASURY_YIELD": [{"interval": "daily", "maturity": "3month", "name": "yield3m"}]}, "Technical": {"BBANDS": {"interval": "daily", "time_period": 20}, "MACD": {"interval": "daily", "time_period": null}}, "Commodities": ["PBD"]}
