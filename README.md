@@ -7,7 +7,7 @@ An ensemble method was developed by combining a long-short-term-memory (LSTM) Mo
 + Prophet: 44.6%
 + Naive: 10.5%
 
-![image](https://user-images.githubusercontent.com/1649676/137159566-a37994e3-e75b-4741-bb7b-3cb94a754736.png)
+![image](https://user-images.githubusercontent.com/1649676/137178149-bf4fcd22-be3c-40ae-bdaf-0a94be665a84.png)
 
 
 ## Data Aquisition & Analysis
@@ -37,7 +37,7 @@ The LSTM model was built using Keras/Tensorflow, and the hyper-parameters were o
 ## Plotly/Dash Application
 A plotly/dash application was built to automatically pull daily price/features data, make the next three days of predictions, and calculate the daily and cumulative prediction errors.  The user can select the stock/crypto, and the application displays the predicted vs. actual prices, the daily and cumulative prediction errors, and presents the model details.
 
-![image](https://user-images.githubusercontent.com/1649676/137170867-b5ea6dc2-a58f-4d45-9532-5dc805cf82bb.png)
+![image](https://user-images.githubusercontent.com/1649676/137177975-3aedac1b-d2a9-4d31-878c-b7006d58eb71.png)
 
 
 ## File Structure
