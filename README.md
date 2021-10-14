@@ -3,9 +3,9 @@ There are several goals for this project. The first is **to determine if stock/c
 
 ## Overview
 An ensemble method was developed by combining a long-short-term-memory (LSTM) Model, a Facebook Prophet time-series forecasting model, and a naive model that always predicts tomorrow's closing price is equal to today's closing price.  The naive model was introduced to add more weight to the most current closing price. Linear programming was used to find the optimal allocation to each model that resulted in a cumulative and average prediction error of zero in a historical back-test from January 2021 to September 2021 for Bitcoin.  The LSTM model tends to underestimate price trends while Prophet tends to overestimate prices.  As a result, the ensemble method performs better than any individual model.
-+ LSTM: 44.8%
-+ Prophet: 44.6%
-+ Naive: 10.5%
++ LSTM Weight: 44.8%
++ Prophet Weight: 44.6%
++ Naive Weight: 10.5%
 
 ![image](https://user-images.githubusercontent.com/1649676/137178149-bf4fcd22-be3c-40ae-bdaf-0a94be665a84.png)
 
@@ -49,7 +49,7 @@ The data files in the repository are organzed as follows:
 + **config**: folder to host json config files used to define model and data details
 + **data**: folder containing finalized data used in the models and historical back-tests
 + **models**: finalized LSTM models
-+ **dash**: plotly/dash files1
++ **dash**: plotly/dash files
   + main.py - controls daily updates flow
   + preprocess.py - functions to collect and preprocess data, make predictions
   + visuals.py - functions to plot visuals in the app
