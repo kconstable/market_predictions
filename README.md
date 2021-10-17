@@ -44,10 +44,10 @@ A plotly/dash application was built to automatically pull daily price/features d
 The data files in the repository are organzed as follows:
 + **root**: Jupyter Notebooks
   + market_data: data collection, analysis, consolidation, feature selection
-  + LSTM_model: data pre-processing, LSTM model training, optimiztaion
+  + LSTM_model: data pre-processing, LSTM model training, optimization
   + predict_market_data: construction of the ensemble method, historical back-test,visualizations for the plolty/dash app
-+ **config**: folder to host json config files used to define model and data details
-+ **data**: folder containing finalized data used in the models and historical back-tests
++ **config**: a folder to host json config files used to define model and data details
++ **data**: a folder containing finalized data used in the models and historical back-tests
 + **models**: finalized LSTM models
 + **dash**: plotly/dash files
   + main.py - controls daily updates flow
